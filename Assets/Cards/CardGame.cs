@@ -178,7 +178,7 @@ public class CardGame : MonoBehaviour {
             temporaryPlayer.number = playerNumber;
             playerList.Add(temporaryPlayer);
             //Debug.Log(playerList[i].playerHand[i].notes);
-            chooseVictim[i].SetActive(true);
+            //chooseVictim[i].SetActive(true);
         }
         
     }
@@ -226,7 +226,7 @@ public class CardGame : MonoBehaviour {
             cardIsChosen = false;
 
             awaitingForNextPlayerPanel.SetActive(true);
-            awaitingForNextPlayerText.GetComponent<TextMeshProUGUI>().text = "Next up is Player " + currentPlayer;
+            awaitingForNextPlayerText.GetComponent<TextMeshProUGUI>().text = "Next up is Player " + (currentPlayer+1);
             //StartGame();
         }
         chosenVictim = -1;
