@@ -1,0 +1,10 @@
+toggle group is for choosing a target in the future. The toggles should turn invisible according to 
+available targets.
+
+Choosing cards still needs some work.
+
+There should be a list of points of all players available when someone's choosing cards.
+
+Depending on the type of card, there should be different methods executed.
+
+There needs to be a condition for ending the game, as well as the endgame panel and so on implemented.
